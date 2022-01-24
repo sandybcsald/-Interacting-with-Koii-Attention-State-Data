@@ -19,19 +19,22 @@ This JSON data has all the info in the respective order:
 * A list of all the Valid Contract Sources
 
 
-## Searching Information for a particular NFT
+## Searching information pertaining to a particular NFT (via Koii Mainnet)
 
 To search for any information related to any NFT, follow the steps below:
 
 1. Lookup for the NFT ID on [Viewblock](https://viewblock.io/) via Finnie Wallet by clicking on Explore Block under the NFT title. 
+
 ![Screenshot from 2022-01-24 21-36-15](https://user-images.githubusercontent.com/47121187/150820034-bdb33381-cbf8-4c6c-a430-1624aef883e4.png)
 
 2. Copy your NFT ID (*See image illustration below.*)
+
 ![Screenshot from 2022-01-21 22-22-06](https://user-images.githubusercontent.com/47121187/150568967-cbd72b91-d4f0-4026-ac8d-92b5466b01d3.png)
 
 3. Hit the URL `https://mainnet.koii.live/attention/nft?id=[PASTE YOUR NFT ID HERE]` *Remove the square brackets when you put your NFT ID.*
 
 4. All the information pertaining to the NFT ID will be displayed in JSON.
+
 ![Screenshot from 2022-01-21 22-37-18](https://user-images.githubusercontent.com/47121187/150569694-8bb7b883-bf56-4b01-a11d-61084132fddc.png)
 
 The information we get after querying a particular NFT ID is in the following order:
@@ -48,3 +51,13 @@ The information we get after querying a particular NFT ID is in the following or
 * prev	: NFT ID of the previous NFT in series
 * attention	: Attention gained by the respective NFT
 * reward	: Rewards earned for the NFT
+
+### URL Structure in Viewblock
+
+You can also view all of the NFT and it's network related details in [Viewblock](https://viewblock.io/) from the page that opens up after clicking on Explore Block in Step 1 above.
+
+Or if you have your NFT ID handy you can go by https://viewblock.io/arweave/tx/[YOUR NFT ID HERE], see screenshot below to see all the details on the page.
+
+Tip: This could be also be used to check the status of the transaction if it's waiting or has been completed etc.
+
+![Screenshot from 2022-01-25 01-18-02](https://user-images.githubusercontent.com/47121187/150855417-de070c2b-c8b7-4987-a29b-7b9ad1c28d83.png)
